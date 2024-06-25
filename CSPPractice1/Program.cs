@@ -17,8 +17,11 @@ namespace CSPPractice1
             /*
              * 여러줄 주석
              */
-            /***xml주석***/      
+            /***xml주석***/
 
+            //출력
+            Console.WriteLine("hello world!");
+            Console.Write("뉴라인아님");
         }
     }
 }
