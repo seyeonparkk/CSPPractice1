@@ -10,6 +10,15 @@ namespace CSPPractice1
     {
         static void Main(string[] args)
         {
+            //컨텍스트 키워드
+            var abc = "Hello World";
+
+            //한줄주석
+            /*
+             * 여러줄 주석
+             */
+            /***xml주석***/      
+
         }
     }
 }
