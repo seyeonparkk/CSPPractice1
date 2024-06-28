@@ -98,6 +98,19 @@ namespace CSPPractice1
             {
                 //other
             }
+
+            //13-5 switch 문
+            int v = 0;
+            switch (v)
+            {
+                case 0:
+                    //0
+                    break;
+                defalut:
+                    //other
+                    break;
+            }
+
         }
     }
 }
