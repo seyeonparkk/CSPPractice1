@@ -81,6 +81,10 @@ namespace CSPPractice1
             //12-9 입력
             string input = Console.ReadLine();
             Console.WriteLine(input);
+
+            //12-10 자료형 변환
+            //very important
+
         }
     }
 }
