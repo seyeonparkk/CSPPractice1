@@ -62,6 +62,10 @@ namespace CSPPractice1
             //12-4 변수
             string name = "문자열 변수형";
 
+            //12-5 복합대입연산자
+            string output = "hi";
+            output += "world";
+            Console.WriteLine(output);
         }
     }
 }
