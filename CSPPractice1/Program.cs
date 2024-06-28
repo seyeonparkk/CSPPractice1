@@ -73,6 +73,10 @@ namespace CSPPractice1
             Console.WriteLine(++number);//12
             Console.WriteLine(number--);//12
             Console.WriteLine(--number);//10
+
+            //12-8 var 키워드
+            var varnumber = 20;
+            //var abc;  //초기화 반드시 필요
         }
     }
 }
