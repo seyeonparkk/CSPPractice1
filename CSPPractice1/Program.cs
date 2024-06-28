@@ -85,7 +85,19 @@ namespace CSPPractice1
             //12-10 자료형 변환
             //very important
 
-
+            //13-1 if조건문
+            bool condition = true;
+            if (condition)
+            {
+                //true
+            }else if (condition)
+            {
+                //true
+            }
+            else
+            {
+                //other
+            }
         }
     }
 }
