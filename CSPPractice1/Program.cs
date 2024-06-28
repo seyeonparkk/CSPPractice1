@@ -58,6 +58,10 @@ namespace CSPPractice1
             Console.WriteLine(!true);
             Console.WriteLine(true&&false);
             Console.WriteLine(true||true);
+
+            //12-4 변수
+            string name = "문자열 변수형";
+
         }
     }
 }
