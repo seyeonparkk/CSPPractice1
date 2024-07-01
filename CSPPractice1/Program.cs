@@ -17,6 +17,10 @@ namespace CSPPractice1
             //Console.WriteLine(instaceVar);        //클래스메서드에서 인스턴스 변수 접근 불가
             return (input >= 0) ? input : -input;
         }
+        // 메서드 시그네이처(이름, 매개변수)가 겹쳐서 안됨
+        //public static double Abs(int input) { return 0; }
+        public static double Abs(double input) { return 0; }
+
     }
     class FirstClass { }
     internal class Program
@@ -185,7 +189,13 @@ namespace CSPPractice1
             Console.WriteLine(Product.TAX_RATIO);
             //Console.WriteLine(p1.TAX_RATIO)    //자바는 가능하나 씨샵은 안됨
 
-            //22-1 클래스 메서드
+            //22-3 클래스 메서드
+
+            //22-4 메서드 오버로딩
+            Console.WriteLine(Mymath.Abs(-10));        //Abs(int)
+            Console.WriteLine(Mymath.Abs(10.0)); //Abs(double)
+            Console.WriteLine(Mymath.Abs(-10L)); //Abs(double)
+            Console.WriteLine(Mymath.Abs(3.0f)); //Abs(double)
         }
     }
 }
