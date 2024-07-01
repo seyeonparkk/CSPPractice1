@@ -156,7 +156,18 @@ namespace CSPPractice1
             Console.WriteLine(Math.PI);
 
             //21-3클래스 생성
-            
+
+            //21-4 인스턴스 변수
+            User user1 = new User();
+            user1.name = "이미림";
+            user1.phoneNumber = "010-1234-5678";
+
+            Product p1 = new Product();
+            p1.name = "어른폰";
+            p1.price = 99999;
+
+            Product p2 = new Product() { price = 100000, name = "아이폰" };
+            Product p3= new Product() { price = 100000};
 
         }
     }
