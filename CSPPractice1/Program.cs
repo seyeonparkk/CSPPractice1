@@ -6,6 +6,18 @@ using System.Threading.Tasks;
 
 namespace CSPPractice1
 {
+    class Mymath
+    {
+        public static int classVar = 1;
+        public int instanceVar = 2;
+
+        public static int Abs(int input)
+        {
+            Console.WriteLine(classVar);
+            //Console.WriteLine(instaceVar);        //클래스메서드에서 인스턴스 변수 접근 불가
+            return (input >= 0) ? input : -input;
+        }
+    }
     class FirstClass { }
     internal class Program
     {
@@ -172,6 +184,8 @@ namespace CSPPractice1
             //21-5 클래스 변수
             Console.WriteLine(Product.TAX_RATIO);
             //Console.WriteLine(p1.TAX_RATIO)    //자바는 가능하나 씨샵은 안됨
+
+            //22-1 클래스 메서드
         }
     }
 }
